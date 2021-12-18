@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>login</title>
+    <title>Deshbord</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +24,7 @@
     </header><br>
 
     <section class="container-fluid">
+        <!--JavaScript-->
         <div class="accordion">
             <div class="card">
                 <div class="card-header bg-light">
@@ -31,15 +32,32 @@
                         Challenge JavaScript
                     </a>
                 </div>
-								<div id="js" class="collapse show" data-bs-parent="accordion">
-									<div class="card-body list-group container">
-											<a href="ctf-JavaScript/" class="list-group-item list-group-item-action">Obfuscate code</a>
-										
-									</div>
-								</div>
+                    <div id="js" class="collapse show" data-bs-parent="accordion">
+                        <div class="card-body list-group container">
+                            <a href="ctf-JavaScript/" class="list-group-item list-group-item-action">Obfuscate code JavaScript</a>
+                        </div>
+                    </div>
                 
             </div>
         </div>
+        <hr>
+        <!--CMD-->
+        <div class="accordion">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <a href="#js" class="btn btn-light" data-bs-toggle="collapse">
+                        Challenge CMD
+                    </a>
+                </div>
+                <div id="js" class="collapse show" data-bs-parent="accordion">
+                    <div class="card-body list-group container">
+                        <a href="cmd_injection/templates/cmd0.html" class="list-group-item list-group-item-action">CMD Injection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
     </section>
     
 </body>
